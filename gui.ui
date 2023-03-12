@@ -39,21 +39,6 @@
      <string>Import Dataset to Predict :</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="datasetName">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>190</y>
-      <width>611</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background: rgb(30, 30, 30);
-border-radius: 15px;
-color : #e1e1e1;</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="importButton">
     <property name="geometry">
      <rect>
@@ -207,6 +192,21 @@ QPushButton::hover {
     </property>
     <property name="text">
      <string>Predict</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="datasetName">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>190</y>
+      <width>611</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(30, 30, 30);
+border-radius: 15px;
+color : #e1e1e1;</string>
     </property>
    </widget>
   </widget>
