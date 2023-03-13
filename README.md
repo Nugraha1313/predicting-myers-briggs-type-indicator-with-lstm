@@ -1,4 +1,4 @@
-# Predicting-Myers-Briggs-Type-Indicator-with-Recurrent-Neural-Networks
+# Predicting-Myers-Briggs-Type-Indicator-with-LSTM
 
 ## Authors
 
@@ -34,7 +34,7 @@ Our focus for this project is using machine learning to build a classifier capab
 
 7. Run differentiate_words.py and then word_cloud.py to get data for word cloud formation for each MBTI type letter (i.e. one for I, one for E, etc.)
 
-8. Above all, make this your own. I developed this project when I was not very good at programming, so it is filled with bad style. Enjoy!
+8. Run main.py for running
 
 ## 1 Introduction
 
